@@ -1,0 +1,13 @@
+.vs
+*.sln
+DerivedDataCache/
+Intermediate/
+Saved/
+Binaries/
+Build/
+
+
+Content/StarterContent
+Content/ExternalContent
+
+enc_temp_folder/

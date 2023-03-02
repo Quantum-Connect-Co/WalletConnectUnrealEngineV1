@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "YourQRCode",
+	"Description": "generate qr code at runtime",
+	"Category": "Other",
+	"CreatedBy": "Jack Chen",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b00c4555b6e14bd0880d4f8ef1a09197",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "YourQRCode",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			],
+			"PlatformDenyList": [
+				"Mac",
+				"IOS",
+				"HoloLens"
+			]
+		}
+	]
+}

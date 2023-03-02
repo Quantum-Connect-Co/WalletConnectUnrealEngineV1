@@ -1,0 +1,42 @@
+теги в плагине
+
+FIXLATER добавить функционал
+FIXMEMORY проследить утечку памяти
+CREATE_ANALOG сделать аналог c#
+CREATE_NEW_ALG сделать новый алгоритм
+
+c4e70bc2d3fff6da1d6c13c1f171f3eaefdfe35069d678e5103dde32239e43c2
+wss://5.bridge.walletconnect.org
+{\"topic\":	\"0059ea9e-1acd-48fb-9d76-ec371b7de0c5\",\"type\":\"sub\",\"payload\":\"\",\"silent\":true}
+{"params":[{"peerId":"0059ea9e-1acd-48fb-9d76-ec371b7de0c5","peerMeta":{"description":"An example that showcases how to use the WalletConnectSharp library","url":"https://app.warriders.com/","icons":["https://app.warriders.com/favicon.ico"],"name":"WalletConnectSharp"},"chainId":1}],"id":1668015367530387,"jsonrpc":"2.0","method":"wc_sessionRequest"}
+
+{"topic":"95c5b402-4e94-461c-b52c-73bfc18b509f","type":"pub","payload":"{\"iv\":\"b6b3c956697dfaf9d00686c714dde3b5\",\"hmac\":\"cf939c1d001a908883d5a7960cc2aa7b09f0e030ee638d53d174b0844a910f94\",\"data\":\"fd762ec2ac02e497033ac4e031a8c71a8c4c1cc2634e8bf207f9194885536ad39ca1a2e4a1ccc988b4758d8aee7e2f50a82c47198459c5fee67b7c27e818875b74734c3be2b3d64f3434907d30b4d3943a87181e8680cc520f3ff393f8773ee2e2b8d4c63678e3cc267d96d1dbb6d9a3a6b1817d673e25f6c79a73dd5101efb0f9ec92876409603f3bd43051434155ebcc6a1e53c0ce49bbde557d3843d55218c8662d778265ad9799766c0a1f92a4bcdd9f2df23e4633a57ed28392560117c811578f6606400831db78537d3c5801ca393a7107b2044282e394ea216789ae419383c73d5a10b69b6c587a938f75de4616635442be1d98253c336c41dbdf102efef25222f688f6a06e8078c87e62a2e84475c4abf934ad90aa19a1f8d3e1e55808de0d13e13f496c435930a9072304bd88196efa22fae44b36608e94527d728e92c4fe7ab4844124b37a0a0f1b3a7546413396d01d32706a9fad9c27f186fa82\"}","silent":true}
+
+wc:c7179687-0666-420b-875b-d825648b25f1@1?bridge=https%3A%2F%2Fw.bridge.walletconnect.org&key=048dc07e17011a60ab1ee152434a346620b807b055f83c36fd0e3eae20eb23d4
+wss://w.bridge.walletconnect.org
+{"topic":"ab2eb28f-2b6e-4fca-bcf5-aed4c7c03318","type":"sub","payload":"","silent":true}
+{"topic":"c7179687-0666-420b-875b-d825648b25f1","type":"pub","payload":"{\"iv\":\"60a02afba53c75ad3b561469c473b3af\
+
+
+
+
+Тестирование сокета c#
+
+wc:f5dda026-2790-4f8b-ae0a-6fc40cc0f894@1?bridge=https%3A%2F%2Fb.bridge.walletconnect.org&key=7d05cf266984f4ecd7b24a9b8b9fab44650a2df326b266a0f3c63f4a461f51d2
+wc:f199888f-47e3-e391-31f5-c295de400d4c@1?bridge=https%3A%2F%2F7.bridge.walletconnect.org&key=e7688abca50b7c9155d81e15c4421d4fdedc9723ee22e14264f0c9e856c870c7
+
+
+
+{"topic":"895e5e47-86b6-4e31-b4bf-77a96f83ddbc","type":"sub","payload":"","silent":true}
+▲ {"params":[{"peerId":"895e5e47-86b6-4e31-b4bf-77a96f83ddbc","peerMeta":{"description":"An example that showcases how to use the WalletConnectSharp library","url":"https://app.warriders.com/","icons":["https://app.warriders.com/favicon.ico"],"name":"WalletConnectUnreal"},"chainId":1}],"id":1669045559915516,"jsonrpc":"2.0","method":"wc_sessionRequest"}
+▼ Missing or invalid socket data
+- Connection closed
+- Connecting to: wss://2.bridge.walletconnect.org
+- Connection Established
+▲ {"topic":"66736881-6dab-4929-a1cd-d6e49913392a","type":"sub","payload":"","silent":true}
+▲ {"topic":"8d287540-4fb3-40b7-9c1e-aa00c890da6c","type":"pub","payload":"{\"iv\":\"657af180f5415dc3aa4600ab173aba2a\",\"hmac\":\"9cad92f0d2731e2e7d2e6055a55561e9047056ff7630bd1fa4eb207dbb643ddd\",\"data\":\"3e3050a486ee552e2c95f09c0659e2ec5f23f8bf791b5d22be3cc45b4b0d3737f2f9326dd1b40a0da67e4901e084f4a21381f4dc86cb948bb87555a52bae6d555996f2f909799070344ae8461f105b2e8321cc289e7eb916582769be52799892c7a3ad6e2d66cbb3c332adfdb743d5537336725921ad94040fbb49c6fbbcfe5d087baf64cb3527cf57939e5137e2687f8fc24e0d8dddc69f3100fa4234275ad32fb67ef61ea522908fe6ab04a3929c122e7c9a02fa6865f53b82e80e3aa95eeacc71d30ffae8c0ef9206dbafb3d9eeeb31edd0c87586d63a8172525f811d7a4b27d3f88ed4ea8ae1ec3febb83973814775e1592ed10aacaa5470c0ad3a08d41ffbac7e158c4d5669e516143bb98005db03b58b6ffcadd549576ab95621026f2e8f199760e20e87bc164042e0f8789e695e462a996828f6dbcf87b871184dcffeeae3a9b07663b1b5bb17b6b0ee6748c1c292ba7baf3509bf6ef3a7802734a44f4eb8a101eaad7372719aec6a22c9e412\"}","silent":true}
+▼ {"topic":"66736881-6dab-4929-a1cd-d6e49913392a","type":"pub","payload":"{\"iv\":\"757d3bc9c1ae2b2c44cd5723e33a98ee\",\"data\":\"f88b597a33e36db8f21bd8b004eb9547540975eb6832e27b1103b78d3ded43c5af95c689239a5dec00ab9412f79e163eb7aab95bee99bb3fb9d32b94eaf2b8486ed8c3b594e53fd84ba16730416eedc89952212ac7e726e00e02f9237b756d42\",\"hmac\":\"eef86bf16c14f7e1d5ef153f026116d5d1723fd0d0c79d35edff83855438e859\"}","silent":false}
+
+
+
+0x4a9fb9150a2d441a8cde6989e9eeac6d3e1240536d746fda319b8c40812104b5 -sign

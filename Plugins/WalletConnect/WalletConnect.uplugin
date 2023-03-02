@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.22.3",
+	"FriendlyName": "Quantum Connect",
+	"Description": "Experience the future of gaming and unlock endless possibilities!",
+	"Category": "Other",
+	"CreatedBy": "Viktor Shkirov && Anton Mikhet",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "WalletConnect",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
