@@ -20,11 +20,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "YourQRCode",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b00c4555b6e14bd0880d4f8ef1a09197"
 		}
 	]
 }

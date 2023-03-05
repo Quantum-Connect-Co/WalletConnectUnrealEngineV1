@@ -4,23 +4,33 @@ using UnrealBuildTool;
 
 public class WalletConnect : ModuleRules
 {
+	private string ThirdPartyPath
+	{
+		get { return Path.GetFullPath(Path.Combine(ModuleDirectory, "WCEngine/QRCodeGenerator/")); }
+	}
 
 	public WalletConnect(ReadOnlyTargetRules Target) : base(Target)
 	{
+        bEnableExceptions = true;
+        bEnableUndefinedIdentifierWarnings = false;
 
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 		new string[] {
 				Path.Combine(ModuleDirectory, "WCEngine"),
-				Path.Combine(ModuleDirectory, "Public")
+				Path.Combine(ModuleDirectory, "Public"),
+				ThirdPartyPath
+
 			}
 		);
 
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				Path.Combine(ModuleDirectory, "Private")
-			}
+				Path.Combine(ModuleDirectory, "Private"),
+				ThirdPartyPath
+
+            }
 		);
 
 		PublicDependencyModuleNames.AddRange(
@@ -28,7 +38,9 @@ public class WalletConnect : ModuleRules
 			{
 				"OpenSSL",
 				"Core",
-				"WebSockets"
+				"WebSockets",
+                //"QRCodeGenerator",
+                "Projects"
 			}
 		);
 			
@@ -40,7 +52,9 @@ public class WalletConnect : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"OpenSSL"
+				"OpenSSL",
+                //"QRCodeGenerator"
+
 				// ... add private dependencies that you statically link with here ...	
 			}
 		);

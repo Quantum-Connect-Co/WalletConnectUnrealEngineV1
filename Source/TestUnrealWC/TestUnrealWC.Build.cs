@@ -13,12 +13,7 @@ public class TestUnrealWC : ModuleRules
 			"Core",
 			"CoreUObject",
 			"Engine",
-			"InputCore",
-			"SocketIOClient",
-			"SocketIOLib",
-			"Json",
-			"SIOJson",
-			"WebSockets"
+			"InputCore"
 
 	});
 
